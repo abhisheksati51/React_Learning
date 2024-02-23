@@ -1,6 +1,76 @@
-#heading
+*{
+    padding: 5px 8px;
+}
+.header
 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+
+    
+}
+
+.logo
+{
+    width:100px;
+}
+
+.nav-item
+{
+
+}
+.nav-item > ul 
+{
+    display: flex;
+    list-style-type: none;
+    font-size: 24px;
+    font-family:sans-serif;
+    
+}
+
+.nav-item > ul > li
+{
+   margin: 10px;
+   padding: 10px;
+}
+.nav-item>ul>li:hover
+{
+    cursor: pointer;
     color: blue;
-    background-color: red;
-    text-align: center;
+}
+
+.search
+{
+    padding: 20px;
+}
+
+.res-card
+{
+    width:250px;
+    height: auto;
+    margin: 5px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+   
+}
+
+
+.res-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.res-card:hover 
+{
+    border: 1px solid black;
+    cursor: pointer;
+    background-color: grey;
+}
+.logo-card
+{
+    width:90%;
+    height: 150px;
+    align-self: center;
 }
